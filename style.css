@@ -11,3 +11,11 @@
     margin-top: 20px;
 }
 
+.image {
+    display: flex;
+    justify-content: center;
+}
+.image img{
+    height: 400px;
+    width: 400px;
+}
