@@ -2,13 +2,23 @@
 * {
     background-color: rgb(24,24,24);
 }
-
-.header h1 {
+.header {
+    display: flex;
+    justify-content: space-between;
     font-family: "Space Grotesk", sans-serif;
-    font-size: 45px;
     color: aliceblue;
     margin-left: 40px;
     margin-top: 20px;
+}
+.header h1 {
+    margin-top: 10px;
+    font-size: 45px;
+}
+.header p{
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 50px;
+    font-size: 30px;
 }
 
 .image {
