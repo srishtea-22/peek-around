@@ -1,0 +1,2 @@
+# Peek-Around
+This website provides users with fascinating, location-based WikiPedia articles about nearby landmarks, history, and notable places. Explore your surroundings with ease and discover new insights right where you are!
