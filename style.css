@@ -19,6 +19,7 @@
     margin-left: 40px;
     margin-right: 50px;
     font-size: 30px;
+    font-weight: bold;
 }
 
 .image {
@@ -28,4 +29,18 @@
 .image img{
     height: 400px;
     width: 400px;
+}
+
+.btn button{
+    font-family: "Space Grotesk", sans-serif;
+    color: aliceblue;
+    background-color: rgba(90,94,53);
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 4px;
+    border: none;
+    padding: 10px 50px;
+    
+    margin-left: 590px;
+    margin-top: 30px;
 }
