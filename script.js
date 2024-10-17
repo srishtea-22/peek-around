@@ -28,8 +28,8 @@ function displayResults(places) {
     placeElement.className = "place";
 
     placeElement.innerHTML = `
-      <h3>${place.title}</h3>
-      <p>Distance: ${place.dist} meters</p>
+      <h1>${place.title}</h1>
+      <h3>Distance: ${place.dist} meters</h3>
       <a href="https://en.wikipedia.org/wiki/${encodeURIComponent(place.title)}" target="_blank">Read more</a>
     `;
 
