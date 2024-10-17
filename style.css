@@ -52,4 +52,28 @@ button:hover{
 #results {
     color: aliceblue;
     font-family: "Montserrat";
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    column-gap: 20px;  /* Horizontal gap between boxes */
+    row-gap: 20px;   
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 30px;
 }
+
+.place {
+    border: 2px solid #f3ebeb;
+    padding: 20px;
+    height: 200px;  
+  }
+
+  .place a {
+    color: #e5e7e8; 
+    text-decoration: none; 
+  }
+  
+  .place a:hover {
+    text-decoration: underline; 
+  }
+  
