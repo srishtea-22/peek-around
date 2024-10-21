@@ -11,7 +11,7 @@ function error(position){
 
 function fetchArticles(lat, lon){
     const radius = 10000;           // 10km radius
-    const url = `https://en.wikipedia.org/w/api.php?action=query&list=geosearch&gscoord=${lat}|${lon}&gsradius=${radius}&gslimit=10&format=json&origin=*`;
+    const url = `https://en.wikipedia.org/w/api.php?action=query&list=geosearch&gscoord=${lat}|${lon}&gsradius=${radius}&gslimit=20&format=json&origin=*`;
 
     fetch(url)
     .then(response => response.json())              // read and parse as json
@@ -23,7 +23,7 @@ function truncateDescription(extract) {
   // Split the extract into sentences
   const sentences = extract.split('. ');
   // Return the first 1-2 sentences
-  return sentences.slice(0, 2).join('. ') + (sentences.length > 2 ? '.' : ''); // Add a period if more than one sentence
+  return sentences.slice(0, 1).join('. ') + (sentences.length > 1 ? '.' : ''); 
 }
 
 function fetchExtracts(pageids, callback) {

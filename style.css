@@ -32,10 +32,14 @@
     width: 300px;
 }
 
+.search {
+    display: flex;
+}
+
 .btn button{
     font-family: "Montserrat";
     color: aliceblue;
-    background-color: rgba(93,100,36);
+    background-color: rgb(73, 82, 11);
     font-size: 20px;
     border-radius: 4px;
     border: none;
@@ -46,7 +50,17 @@
 }
 
 button:hover{
-    background-color: rgb(73, 82, 11);
+    background-color: rgba(93,100,36);
+}
+
+.radio-buttons{
+    margin-left: 200px;
+    margin-top: 40px;
+}
+.radio-inline {
+    color: aliceblue;
+    font-family: "Montserrat";
+    margin-left: 50px;
 }
 
 #results {
@@ -65,15 +79,20 @@ button:hover{
 .place {
     border: 2px solid #f3ebeb;
     padding: 20px;
-    height: 200px;  
+    height: 250px;  
+    background-color: rgb(39, 39, 39);
   }
 
-  .place a {
-    color: #e5e7e8; 
-    text-decoration: none; 
-  }
-  
-  .place a:hover {
-    text-decoration: underline; 
-  }
+.place * {
+    background-color: rgb(39, 39, 39);
+}
+
+.place a {
+  color: #e5e7e8; 
+  text-decoration: none; 
+}
+
+.place a:hover {
+  text-decoration: underline; 
+}
   
